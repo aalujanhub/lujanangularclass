@@ -1,0 +1,27 @@
+<button (click)=gettodo()> ocultar todo </button>
+<div *ngIf='borrar'>
+
+<div *ngIf='bandera2'>
+<button (click)=getmensaje()> mensaje </button>
+<button (click)=getDetalle()> mensaje servicio</button>
+</div>
+
+<div *ngIf='bandera'> 
+<p appDirectivaColor > {{dato}}</p>
+</div>
+<br>
+<div *ngIf='bandera'> 
+        <p appDirectivaColor > {{data}}</p>
+        </div>
+ <br>
+
+<button (click)=getvalor()> ocultar/motrar mensaje </button>
+<br>
+<button (click)=getvalor2()> ocultar/motrar boton mensaje </button>
+<br>
+<button (click)=getvalor3()> ocultar/motrar imagen </button>
+<div *ngIf='bandera3'>
+        <img src="/assets/imagenes/duck.jpg">
+</div>
+
+</div>
